@@ -1,0 +1,38 @@
+{
+  "name": "react-ribbon-background",
+  "version": "0.0.1",
+  "description": "A simple React component for creating a ribbon background effect",
+  "main": "index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/"
+  ],
+  "keywords": [
+    "react",
+    "background",
+    "animation",
+    "canvas"
+  ],
+  "author": "",
+  "license": "BSD-3-Clause",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.6.3"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.6.2",
+    "@testing-library/react": "^16.0.1",
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "tsconfig-paths": "^4.2.0"
+  }
+}
